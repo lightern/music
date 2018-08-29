@@ -9,4 +9,5 @@
 # Only last part of the name
 =regex([Name],/#(- )(.+)#/, 2, 0)
 # Only first part of the name
+=regex([Name],/#(.+)( -)#/, 1, 0)
 ```

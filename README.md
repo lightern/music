@@ -6,4 +6,7 @@
 =fixcase([album])
 =RemoveLeft([artist], 3)
 =RemoveLeft([name], 3)
+# Only last part of the name
+=regex([Name],/#(- )(.+)#/, 2, 0)
+# Only first part of the name
 ```
